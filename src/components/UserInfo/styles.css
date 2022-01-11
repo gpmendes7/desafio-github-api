@@ -1,0 +1,47 @@
+.userinfo-container {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px;
+  flex: 1;
+}
+
+.userinfo-title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1890ff;
+}
+
+.infocard {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  color: #737373;
+  margin-bottom: 5px;
+}
+
+.infocard .value {
+  font-weight: bold;
+}
+
+.infocard a {
+  color: blue;
+}
+
+@media (min-width: 576px) {
+  .userinfo-container {
+    padding: 10px 15px;
+  }
+
+  .userinfo-title {
+    font-size: 20px;
+  }
+
+  .infocard {
+    font-size: 16px;
+  }
+}
